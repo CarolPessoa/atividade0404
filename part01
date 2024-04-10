@@ -1,0 +1,9 @@
+A = {1:'maça', 2 :'banana', 3 :'pera'}
+print(A)
+frutasVermelhas = {4: 'morango', 5: 'cereja', 6: 'franboesa'}
+
+A.update  (frutasVermelhas)
+print(A)
+
+for valor in A.values():
+    print(valor)
